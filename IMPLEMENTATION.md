@@ -70,7 +70,6 @@ This confirms where your project is being created on your computer - in the port
 - Some key directories were created after these commands, such as:
 
 - **Public:** Holds the static files such as images/files which are served directly
-![public-folder](screenshots/public-folder.png)
 
 - **src/app:** SRC (source) is the source directory, app is the app root directory
 
@@ -79,6 +78,8 @@ This confirms where your project is being created on your computer - in the port
 - **page.tsx:** The site's homepage
 
 - **package.json:** Where the project dependencies are located
+
+![public-folder](screenshots/public-folder.png)
 
 ![src-app-folder](screenshots/src-app-folder.png)
 
@@ -123,10 +124,12 @@ cd portfolio
 
 **1. Go to Settings**
 - Click on the profile (top-right corner) and click 'Settings'
+
 ![github-settings](screenshots/github-settings.png) 
 
 **2. go to Developer Settings**
 - Scroll down and click on 'Developer Settings' (Left-hand side)
+
 ![github-dev-settings](screenshots/github-dev-settings.png)
 
 **3. Generate Token**
@@ -134,20 +137,24 @@ cd portfolio
 - Click 'Tokens (classic)'
 - Click 'Generate New Token' 
 - Click 'Generate new token (classic) For general use' 
+
 ![github-generate-token](screenshots/github-generate-token.png)
 
 
 **4. Set the scope of the access token**
 - Select the entire scope labeled 'Repo'. 
 - Repo provides full control over the repository such as: Access to commit and deploy status, public repositories, repository invitations and read/write security events.
+
 ![github-tokenscope-repo](screenshots/github-tokenscope-repo.png)
 
 - Select the entire scope labeled 'admin:repo_hook'
 - This scope provides full access to repository hooks such as writting and reading the repo hooks.
 - Then complete generating the token
+
 ![github-tokenscope-repohooks](screenshots/github-tokenscope-repohooks.png)
 
 - After the token is created, a code will be displayed. This is the token's code and must be copied and stored somewhere as this code will not show again after leaving the page, however this code witll be needed later.
+
 ![github-token-code](screenshots/github-token-code.png)
 
 **5. Connect localhost Portfolio site to Github**
