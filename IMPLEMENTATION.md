@@ -1,6 +1,6 @@
 # Architecture Diagram
 
-![architecture-diagram](architecture-diagram.png)
+![architecture-diagram](screenshots/architecture-diagram.png)
 
 Bilding a portfolio site with next.js and pushing the code to github which will then deploy the website to AWS via AWS Amplify.
 
@@ -64,13 +64,13 @@ The last line:
 Creating a new Next.js app in /Users/travonmayo/Documents/portfolio-projects/amplify-portfolio-nextjs/portfolio.
 This confirms where your project is being created on your computer - in the portfolio folder at that file path.
 
-![nextjs-app-setup](nextjs-app-setup.png)
+![nextjs-app-setup](screenshots/nextjs-app-setup.png)
 
 ### What this created
 - Some key directories were created after these commands, such as:
 
 - **Public:** Holds the static files such as images/files which are served directly
-![public-folder](public-folder.png)
+![public-folder](screenshots/public-folder.png)
 
 - **src/app:** SRC (source) is the source directory, app is the app root directory
 
@@ -80,7 +80,7 @@ This confirms where your project is being created on your computer - in the port
 
 - **package.json:** Where the project dependencies are located
 
-![src-app-folder](src-app-folder.png)
+![src-app-folder](screenshots/src-app-folder.png)
 
 ### Run the app
 - We then finish push the app by running:
@@ -98,12 +98,12 @@ cd portfolio
 
 - Notice the output for the local host and network. 'Local' is the 'localhost' that can be entered in the URL browser to view the results of what was built by Next.js, while 'Network' represents the ip adress that is assigned to the local host.
 
-![npm-run-dev-success](npm-run-dev-success.png)
+![npm-run-dev-success](screenshots/npm-run-dev-success.png)
 
 **RESULTS OF **npm run dev'**
 - After entering the localhost 3000 into the URL browser, we see the following landing page for the app:
 
-![localhost-landing-page](localhost-landing-page.png)
+![localhost-landing-page](screenshots/localhost-landing-page.png)
 
 - Next, I must create a front-end UI development to make the landing page appealing to the audience. Since I am not a front end developer, I asked myself what would be a unique way to have acheive our task of creating a front end despite my minimal experience with such a skill?
 
@@ -113,7 +113,7 @@ cd portfolio
 
 - After generating a new template for the portfolio site, I personalized the site to highlight my projects and skills. once the changes to the template were saved, the local host automatically updates witht the changes made. It now shows my name, a short bio about myself, projects that I've done and Links to connect with me on Github, LinkedIn and Gmail.
 
-![localhost-updated-site](localhost-updated-site.png)
+![localhost-updated-site](screenshots/localhost-updated-site.png)
 
 ### Setup Github repository
 
@@ -123,31 +123,31 @@ cd portfolio
 
 **1. Go to Settings**
 - Click on the profile (top-right corner) and click 'Settings'
-![github-settings](github-settings.png) 
+![github-settings](screenshots/github-settings.png) 
 
 **2. go to Developer Settings**
 - Scroll down and click on 'Developer Settings' (Left-hand side)
-![github-dev-settings](github-dev-settings.png)
+![github-dev-settings](screenshots/github-dev-settings.png)
 
 **3. Generate Token**
 - Click 'Personal access tokens' 
 - Click 'Tokens (classic)'
 - Click 'Generate New Token' 
 - Click 'Generate new token (classic) For general use' 
-![github-generate-token](github-generate-token.png)
+![github-generate-token](screenshots/github-generate-token.png)
 
 
 **4. Set the scope of the access token**
 - Select the entire scope labeled 'Repo'. 
 - Repo provides full control over the repository such as: Access to commit and deploy status, public repositories, repository invitations and read/write security events.
-![github-tokenscope-repo](github-tokenscope-repo.png)
+![github-tokenscope-repo](screenshots/github-tokenscope-repo.png)
 
 - Select the entire scope labeled 'admin:repo_hook'
 - This scope provides full access to repository hooks such as writting and reading the repo hooks.
 - Then complete generating the token
-![github-tokenscope-repohooks](github-tokenscope-repohooks.png)
+![github-tokenscope-repohooks](screenshots/github-tokenscope-repohooks.png)
 
 - After the token is created, a code will be displayed. This is the token's code and must be copied and stored somewhere as this code will not show again after leaving the page, however this code witll be needed later.
-![github-token-code](github-token-code.png)
+![github-token-code](screenshots/github-token-code.png)
 
 **5. Connect localhost Portfolio site to Github**
