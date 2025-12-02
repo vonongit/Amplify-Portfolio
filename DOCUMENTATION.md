@@ -840,7 +840,7 @@ Next.js Portfolio Loads! 🎉
 - Its built-in preview environments would support future development workflows, and most importantly, it allowed me to focus on building and iterating quickly rather than managing infrastructure complexity. 
 - For a portfolio site where rapid deployment and modern full-stack practices take priority over cost optimization, Amplify proved to be the right choice—though I recognize that for production applications at scale, the cost difference would make S3 + CloudFront the more practical solution.
 
-# Fuutre Considerations
+# Future Considerations
 
 - In the future, I may update this design and switch to an S3 -> Cloudfront model depending on costs
 - However this is expected to handle low traffic, I will evaluate and determine whether the cost is worth the amount of traffic being met.
