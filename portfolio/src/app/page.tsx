@@ -642,7 +642,7 @@ export default function Home() {
                 </li>
                 <li>
                   <span className="info-label">Focus</span>
-                  <span className="info-value">Cloud/IAC/DevOps/Security</span>
+                  <span className="info-value">Cloud | IAC | AI | DevOps | Security</span>
                 </li>
                 <li>
                   <span className="info-label">Specialization</span>
