@@ -607,7 +607,7 @@ export default function Home() {
         <div className="hero-grid">
           <div className="hero-main">
             <h1>Travon Mayo</h1>
-            <p className="tagline">Aspiring Cloud Engineer training in AWS Infrastructure, AI & Automation</p>
+            <p className="tagline">Aspiring Cloud Engineer building with AWS Infrastructure, AI & Automation</p>
             <div className="hero-stats">
               <div className="stat-item">
                 <div className="stat-icon">🚀</div>
