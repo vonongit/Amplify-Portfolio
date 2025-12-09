@@ -612,7 +612,7 @@ export default function Home() {
               <div className="stat-item">
                 <div className="stat-icon">🚀</div>
                 <div className="stat-info">
-                  <h3>3+</h3>
+                  <h3>4+</h3>
                   <p>Projects</p>
                 </div>
               </div>
@@ -705,50 +705,10 @@ export default function Home() {
       <div className="projects-dashboard" id="projects">
         <h2 className="section-title">Featured Projects</h2>
         <div className="projects-grid-advanced">
-          {/* Project 1 */}
+          {/* Project 1 - Infrastructure as Code Migration */}
           <div className="project-card-advanced">
             <div className="project-header">
               <span className="project-number">01</span>
-              <h3>IAM Security Implementation</h3>
-              <span className="project-status">✓ Completed</span>
-            </div>
-            <div className="project-body">
-              <p>Comprehensive IAM security implementation using Terraform. Created role-based access controls, service control policies, and automated permission management following AWS best practices.</p>
-              
-              <div className="project-metrics">
-                <div className="metric">
-                  <span className="metric-value">15+</span>
-                  <span className="metric-label">Policies</span>
-                </div>
-                <div className="metric">
-                  <span className="metric-value">100%</span>
-                  <span className="metric-label">Secure</span>
-                </div>
-                <div className="metric">
-                  <span className="metric-value">IaC</span>
-                  <span className="metric-label">Automated</span>
-                </div>
-              </div>
-
-              <div className="tech-stack-advanced">
-                <span className="tech-badge-advanced">AWS IAM</span>
-                <span className="tech-badge-advanced">Terraform</span>
-                <span className="tech-badge-advanced">Security</span>
-                <span className="tech-badge-advanced">Least Privilege</span>
-              </div>
-
-              <div className="project-footer">
-                <a href="https://github.com/vonongit/StartUpCo-IAM-Security-Project" target="_blank" rel="noopener noreferrer" className="project-link-btn">
-                  View on GitHub →
-                </a>
-              </div>
-            </div>
-          </div>
-
-          {/* Project 2 */}
-          <div className="project-card-advanced">
-            <div className="project-header">
-              <span className="project-number">02</span>
               <h3>Infrastructure as Code Migration</h3>
               <span className="project-status">✓ Completed</span>
             </div>
@@ -785,7 +745,49 @@ export default function Home() {
             </div>
           </div>
 
-          {/* Project 3 */}
+          {/* Project 2 - AI-Powered IT Support Chatbot */}
+          <div className="project-card-advanced">
+            <div className="project-header">
+              <span className="project-number">02</span>
+              <h3>AI-Powered IT Support Automation</h3>
+              <span className="project-status">✓ Completed</span>
+            </div>
+            <div className="project-body">
+              <p>Engineered serverless AI chatbot using AWS Bedrock (Claude) to automate 5 high-frequency IT support scenarios, reducing estimated ticket volume by 30-40% while maintaining operational costs under $3/month.</p>
+              
+              <div className="project-metrics">
+                <div className="metric">
+                  <span className="metric-value">30-40%</span>
+                  <span className="metric-label">Ticket Reduction</span>
+                </div>
+                <div className="metric">
+                  <span className="metric-value">95%</span>
+                  <span className="metric-label">Cost Optimized</span>
+                </div>
+                <div className="metric">
+                  <span className="metric-value">2-3 min</span>
+                  <span className="metric-label">Redeploy Time</span>
+                </div>
+              </div>
+
+              <div className="tech-stack-advanced">
+                <span className="tech-badge-advanced">AWS Bedrock</span>
+                <span className="tech-badge-advanced">Lambda</span>
+                <span className="tech-badge-advanced">API Gateway</span>
+                <span className="tech-badge-advanced">CDK</span>
+                <span className="tech-badge-advanced">Python</span>
+                <span className="tech-badge-advanced">TypeScript</span>
+              </div>
+
+              <div className="project-footer">
+                <a href="https://github.com/vonongit/AWS-Bedrock-AI-Chatbot-Project" target="_blank" rel="noopener noreferrer" className="project-link-btn">
+                  View on GitHub →
+                </a>
+              </div>
+            </div>
+          </div>
+
+          {/* Project 3 - AWS Portfolio Website */}
           <div className="project-card-advanced">
             <div className="project-header">
               <span className="project-number">03</span>
@@ -825,6 +827,46 @@ export default function Home() {
               </div>
             </div>
           </div>
+
+          {/* Project 4 - IAM Security Implementation */}
+          <div className="project-card-advanced">
+            <div className="project-header">
+              <span className="project-number">04</span>
+              <h3>IAM Security Implementation</h3>
+              <span className="project-status">✓ Completed</span>
+            </div>
+            <div className="project-body">
+              <p>Comprehensive IAM security implementation using Terraform. Created role-based access controls, service control policies, and automated permission management following AWS best practices.</p>
+              
+              <div className="project-metrics">
+                <div className="metric">
+                  <span className="metric-value">15+</span>
+                  <span className="metric-label">Policies</span>
+                </div>
+                <div className="metric">
+                  <span className="metric-value">100%</span>
+                  <span className="metric-label">Secure</span>
+                </div>
+                <div className="metric">
+                  <span className="metric-value">IaC</span>
+                  <span className="metric-label">Automated</span>
+                </div>
+              </div>
+
+              <div className="tech-stack-advanced">
+                <span className="tech-badge-advanced">AWS IAM</span>
+                <span className="tech-badge-advanced">Terraform</span>
+                <span className="tech-badge-advanced">Security</span>
+                <span className="tech-badge-advanced">Least Privilege</span>
+              </div>
+
+              <div className="project-footer">
+                <a href="https://github.com/vonongit/StartUpCo-IAM-Security-Project" target="_blank" rel="noopener noreferrer" className="project-link-btn">
+                  View on GitHub →
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -843,6 +885,8 @@ export default function Home() {
               <li>Route 53</li>
               <li>AWS IAM</li>
               <li>Lambda</li>
+              <li>AWS Bedrock</li>
+              <li>API Gateway</li>
             </ul>
           </div>
 
@@ -880,6 +924,7 @@ export default function Home() {
               <li>Cloud Security</li>
               <li>IAM Policies</li>
               <li>Least Privilege</li>
+              <li>API Security</li>
             </ul>
           </div>
         </div>
