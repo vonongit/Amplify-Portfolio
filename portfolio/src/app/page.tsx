@@ -713,7 +713,7 @@ export default function Home() {
               <span className="project-status">✓ Completed</span>
             </div>
             <div className="project-body">
-              <p>Migrated manually-created AWS infrastructure to fully automated Infrastructure as Code using AWS CDK. Improved deployment consistency, version control, and disaster recovery.</p>
+              <p>Migrated Console-created AWS infrastructure to fully automated Infrastructure as Code using AWS CDK. Improved deployment consistency, version control, and disaster recovery.</p>
               
               <div className="project-metrics">
                 <div className="metric">
